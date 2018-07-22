@@ -23,7 +23,7 @@ var db = new Sequelize(DBNAME, DBUSERNAME, DBPASSWORD, {
 //     protocol: 'mysql',
 //     logging:  true
 //   })
-//
+
 // } else {
 //   var db = new Sequelize('knowhow', 'root', '', {
 //     host: 'localhost',
