@@ -23,16 +23,6 @@ class NavBar extends React.Component {
     this.handleLogout = this.handleLogout.bind(this);
   }
 
-  componentWillMount() {
-    if(this.props.user === '') {
-      axios.get('/user')
-      .then(data => {
-        if (JSON.stringify(data) !== '{}') {
-          this.props.updateUserInfo(data)
-        }
-      })
-    }
-  }
 
   handleResultSelect(e, { result }) {
     this.setState({
