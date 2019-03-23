@@ -1,6 +1,8 @@
 # Project Name
 
-> Know-how: A knowledge base app.
+![Imgur](https://i.imgur.com/RTcglTs.png)
+
+> [Know-how: A knowledge base app.](https://pure-tor-28594.herokuapp.com/addarticle)
 
 ## Team
 
